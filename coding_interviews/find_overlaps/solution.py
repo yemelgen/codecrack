@@ -51,7 +51,7 @@ def find_overlaps_v3( intervals:list[tuple[int]] ) -> int:
             count[r] = count.get( r, 0 ) + 1
     return [ i for i in intervals if any( r for r in range(i[0], i[1] + 1 ) if count[r] > 1) ]
 
-def find_overlaps( intervals:list[tuple[int]] ) -> int:
+def find_overlaps_v4( intervals:list[tuple[int]] ) -> int:
     """ Working solution O(n) or at least O(nlogn) """
     if not intervals or len(intervals) == 1: return []
 
@@ -66,3 +66,5 @@ def find_overlaps( intervals:list[tuple[int]] ) -> int:
         last_end = max(last_end, intervals[i][1])
 
     return [ x for i, x in enumerate(intervals) if i in overlaps ]
+
+find_overlaps = find_overlaps_v4

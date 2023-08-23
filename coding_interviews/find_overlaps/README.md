@@ -104,5 +104,5 @@ This is one of the first challenges on my coding interviews, and I haven't manag
 2. **find_overlaps_v2**: Working solution with O(n^2) complexity. Compares each range with all others using nested loops, correctly identifies overlaps, but inefficient for larger inputs.
 3. **find_overlaps_v2_1**: Improved version of v2, still O(n^2). Uses a set to track overlapping indices, then generates the result list based on those indices.
 4. **find_overlaps_v3**: Working solution using a hash map, but still with O(n * m) complexity. Counts occurrences of numbers within ranges, identifies overlaps, and generates the result list based on counts.
-5. **find_overlaps**: Optimized solution with O(n) complexity. Sorts intervals based on start values, iterates through sorted intervals, detecting overlaps using adjacent ranges, resulting in an efficient solution.
+5. **find_overlaps_v4**: Optimized solution with O(n) complexity. Sorts intervals based on start values, iterates through sorted intervals, detecting overlaps using adjacent ranges, resulting in an efficient solution.
 
