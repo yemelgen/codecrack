@@ -1,2 +1,2 @@
 # Code Unlocking Solutions
-Solutions for my past Coding Interview or certification Challenges.
+Solutions for my past coding interviews or certification challenges.
