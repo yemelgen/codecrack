@@ -1,0 +1,9 @@
+# MacOS attributes
+.DS_Store
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
